@@ -27,7 +27,7 @@ function Signup() {
       return handleError('Name, email, and password are required');
     }
     try {
-      const url = "https://zerodha-backend-gf3l.onrender.com/auth/signup";
+      const url = "https://zerodha-backend-adoh.onrender.com/auth/signup";
       const response = await fetch(url, {
         method: "POST",
         headers: {
@@ -90,7 +90,7 @@ function Signup() {
               value={signupInfo.password}
             />
           </div>
-          <Link to={"/"} ><button type="submit">Submit</button></Link>
+          <button type="submit">Submit</button>
           <span>
             Already have an account? <Link to={'/signup/login'}>Login</Link>
           </span>

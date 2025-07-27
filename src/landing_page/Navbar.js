@@ -44,6 +44,11 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
+              <Link onClick={()=>handleMenuClick(1)} className="nav-link active" aria-current="page" to={"/Login"}>
+                <p className={selectMenu===1 ? activeMenuClass : menuClass}>Login</p>
+              </Link>
+            </li>
+            <li className="nav-item">
               <Link onClick={()=>handleMenuClick(2)} className="nav-link active" to={"/about"}>
               <p className={selectMenu===2 ? activeMenuClass : menuClass}>About</p>  
               </Link>

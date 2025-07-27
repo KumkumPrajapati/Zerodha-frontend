@@ -27,7 +27,7 @@ const handleLogin = async (e) => {
         return handleError('email and password are required')
     }
     try {
-        const url = `https://zerodha-backend-gf3l.onrender.com/auth/login`;
+        const url = `https://zerodha-backend-adoh.onrender.com/auth/login`;
         const response = await fetch(url, {
             method: "POST",
             headers: {
@@ -42,7 +42,9 @@ const handleLogin = async (e) => {
             localStorage.setItem('token', jwtToken);
             localStorage.setItem('loggedInUser', name);
             setTimeout(() => {
-              window.location.href ='https://zerodha-dashboard-n0id.onrender.com';
+              window.location.href ='https://zerodha-dashboard-nsoh.onrender.com/';
+              //window.location.href = `https://zerodha-dashboard-nsoh.onrender.com/?token=${jwtToken}&name=${encodeURIComponent(name)}`;
+
             }, 1000)
         } else if (error) {
             const details = error?.details[0].message;
@@ -82,8 +84,7 @@ const handleLogin = async (e) => {
             value={loginInfo.password}
           />
         </div>
-        <Link to={"/"} > <button type="submit">Submit</button></Link>
-        <span>
+         <button type="submit">Submit</button>        <span>
             Create a new account <Link to={"/Signup"}>Signup</Link>
           </span>
           
