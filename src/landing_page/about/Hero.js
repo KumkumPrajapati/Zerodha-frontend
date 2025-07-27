@@ -10,7 +10,7 @@ function Hero() {
             <div className='row p-5 mt-5 border-top text-muted ' style={{lineHeight: "1.8", fontSize:"1.2em"}}>
                 <div className='col-6 p-5'>
                     <p>
-                        We kick-started operations on the 15th of August, 2010 with the goal of breaking all barriers that traders and investors face in India in terms of cost, support, and technology. We named the company Zerodha, a combination of Zero and "Rodha", the Sanskrit word for barrier.</p> <p>Today, our discruptive pricing models and in-house technology have mode us the biggest stock broker in India.</p>
+                        We kick-started operations on the 15th of August, 2010 with the goal of breaking all barriers that traders and investors face in India in terms of cost, support, and technology. We named the company StockTrade, a combination of Stock and "Trade", the Sanskrit word for barrier.</p> <p>Today, our discruptive pricing models and in-house technology have mode us the biggest stock broker in India.</p>
                         <p> Over 1+ Crore clients place millions of orders every day through our powerful ecosystem of investment plateforms, contributing over 15% of all India retail trading volumes.</p>  
                 </div>
                 <div className='col-6 p-5'>

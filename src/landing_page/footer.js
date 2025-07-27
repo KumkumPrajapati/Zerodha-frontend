@@ -6,9 +6,9 @@ function Footer() {
           <div className="container border-top mt-5">
             <div className="row mt-5">
               <div className="col">
-                <img src="images/logo.svg" style={{ width: "50%" }} />
+                <img src="images/logo1.jpg" style={{ width: "50%" }} />
                 <p>
-                  &copy; 2010 - 2024, Not Zerodha Broking Ltd. All rights reserved.
+                  &copy; 2010 - 2024, Not StockTrade  Broking Ltd. All rights reserved.
                 </p>
                 <a href="https://www.instagram.com/" style={{textDecoration: "none", color: "#212529",height:"50px" }} className='p-2'><i class="fa fa-instagram" aria-hidden="true"></i></a>
                 <a href="https://www.facebook.com/" style={{textDecoration: "none", color: "#212529" }} className='p-2'><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
@@ -26,11 +26,11 @@ function Footer() {
                 <br />
                 <a href="" style={{textDecoration: "none", color: "#212529"}}>Careers</a>
                 <br />
-                <a href="" style={{textDecoration: "none", color: "#212529"}}>Zerodha.tech</a>
+                <a href="" style={{textDecoration: "none", color: "#212529"}}>StockTrade .tech</a>
                 <br />
                 <a href="" style={{textDecoration: "none", color: "#212529"}}>Press & media</a>
                 <br />
-                <a href="" style={{textDecoration: "none", color: "#212529"}}>Zerodha cares (CSR)</a>
+                <a href="" style={{textDecoration: "none", color: "#212529"}}>StockTrade cares (CSR)</a>
                 <br />
               </div>
               <div className="col">
@@ -58,7 +58,7 @@ function Footer() {
             </div>
             <div className="mt-5 text-muted" style={{ fontSize: "14px" }}>
               <p>
-                Zerodha Broking Ltd.: Member of NSE​ &​ BSE – SEBI Registration no.:
+                StockTrade Broking Ltd.: Member of NSE​ &​ BSE – SEBI Registration no.:
                 INZ000031633 CDSL: Depository services through Zerodha Securities
                 Pvt. Ltd. – SEBI Registration no.: IN-DP-100-2015 Commodity Trading
                 through Zerodha Commodities Pvt. Ltd. MCX: 46025 – SEBI Registration
@@ -104,7 +104,7 @@ function Footer() {
             </div>
             <div className="row mt-5 pt-4" >
           <div className=" text-center">
-            <p>This Zerodha clone is developed by &#9829; Kumkum Prajapati.</p>
+            <p>This StockTrade  is developed by &#9829; Kumkum Prajapati.</p>
           </div>
           <p className='text-center'>
             Connect on <a href="https://www.linkedin.com/in/kumkum-prajapati-01kd/"><i className="fa fa-linkedin-square"></i></a> 

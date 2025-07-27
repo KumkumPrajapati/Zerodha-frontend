@@ -43,7 +43,7 @@ function ProductPage() {
           googlePlay=""
            appStore=""
            />
-        <p className='text-center mt-5 mb-5'>Want to know about our technology stack? Check out the Zerodha.tech blog.</p>
+        <p className='text-center mt-5 mb-5'>Want to know about our technology stack? Check out the StockTrade.tech blog.</p>
         <Universe />
         </>
      );
